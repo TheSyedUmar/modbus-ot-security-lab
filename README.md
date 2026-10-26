@@ -94,7 +94,7 @@ python3 hmi_test.py
 
 **Firewall rule** — only the trusted host may reach the PLC on port 502:
 
-![pfSense rules](pfsenserules.png)
+![pfSense rules](pfSenserules.png)
 
 **Attack blocked (after the firewall rule):**
 
