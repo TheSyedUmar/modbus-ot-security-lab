@@ -86,7 +86,7 @@ python3 hmi_test.py
 
 **Attack succeeds (before the firewall rule)** — the untrusted host reads and writes the PLC with no password:
 
-![Attack works](screenshots/Attackworks.png)
+![Attack works](screenshots/Attack works.png)
 
 **Packet capture** — tcpdump on the PLC shows the Modbus traffic from 192.168.10.100, no authentication:
 
