@@ -86,19 +86,19 @@ python3 hmi_test.py
 
 **Attack succeeds (before the firewall rule)** — the untrusted host reads and writes the PLC with no password:
 
-![Attack works](screenshots/Attack works.png)
+![Attack works](Attackworks.png)
 
 **Packet capture** — tcpdump on the PLC shows the Modbus traffic from 192.168.10.100, no authentication:
 
-![tcpdump](screenshots/tcpdumpcapture.png)
+![tcpdump](tcpdumpcapture.png)
 
 **Firewall rule** — only the trusted host may reach the PLC on port 502:
 
-![pfSense rules](screenshots/pfsenserules.png)
+![pfSense rules](pfsenserules.png)
 
 **Attack blocked (after the firewall rule):**
 
-![Attack blocked](screenshots/Attackblocked.png)
+![Attack blocked](Attackblocked.png)
 
 More in the `screenshots/` folder: the VM list and the OpenPLC dashboard. A full write-up is in `Modbus-OT-Security-Lab-Report.docx`.
 
