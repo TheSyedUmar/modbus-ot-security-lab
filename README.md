@@ -86,15 +86,15 @@ python3 hmi_test.py
 
 **Attack succeeds (before the firewall rule)** — the untrusted host reads and writes the PLC with no password:
 
-![Attack works](Attackworks.png)
+![Attack works](Attack works.png)
 
 **Packet capture** — tcpdump on the PLC shows the Modbus traffic from 192.168.10.100, no authentication:
 
-![tcpdump](tcpdumpcapture.png)
+![tcpdump](tcpdump capture.png)
 
 **Firewall rule** — only the trusted host may reach the PLC on port 502:
 
-![pfSense rules](pfsenserules.png)
+![pfSense rules](pfsense rules.png)
 
 **Attack blocked (after the firewall rule):**
 
