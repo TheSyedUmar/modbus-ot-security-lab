@@ -82,7 +82,7 @@ python3 hmi_test.py
 
 **Network architecture**
 
-![Network diagram](screenshots/01-network-diagram.png)
+![Network diagram](01-network-diagram.png)
 
 **Attack succeeds (before the firewall rule)** — the untrusted host reads and writes the PLC with no password:
 
